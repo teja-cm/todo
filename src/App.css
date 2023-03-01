@@ -1,0 +1,86 @@
+body {
+  margin: 0%;
+  background-color: rgb(209, 238, 228);
+}
+
+.nav {
+  display: flex;
+  box-shadow: 0 10px 4px 0 rgba(11, 11, 11, 0.1);
+}
+
+.nav>h1 {
+  padding-top: 0px;
+
+}
+
+.nav>h1:hover {
+  color: rgb(173, 173, 201);
+}
+
+.logo {
+  height: 90px;
+  margin-right: 10px;
+}
+
+.title {
+  box-shadow: 0 10px 4px 0 rgba(11, 11, 11, 0.1);
+  width: 300px;
+  background-color: rgb(246, 228, 228);
+
+
+}
+
+.details {
+  box-shadow: 0 10px 4px 0 rgba(11, 11, 11, 0.1);
+  height: 100px;
+  padding-left: 20px;
+  left: 60px;
+  width: 400px;
+}
+
+.note {
+
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.color {
+
+
+  padding-right: 10px;
+  width: 50px;
+  left: 80px;
+
+}
+
+.button {
+  left: 100px;
+
+}
+
+.error {
+  background-color: red;
+  padding: 10px;
+  width: 50%;
+  color: white;
+}
+
+.card {
+  margin: 20px;
+  width: 400px;
+}
+
+
+.notebutton {
+  bottom: -10px;
+  box-shadow: 0 10px 4px 0 rgba(11, 11, 11, 0.1);
+
+
+}
+
+.view {
+  left: 20px;
+  bottom: -10px;
+  box-shadow: 0 10px 4px 0 rgba(11, 11, 11, 0.1);
+}

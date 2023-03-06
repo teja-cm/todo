@@ -79,8 +79,19 @@ body {
 
 }
 
+.viewbutton {
+  bottom: -10px;
+  box-shadow: 0 10px 4px 0 rgba(11, 11, 11, 0.1);
+  left: 10px;
+
+
+}
 .view {
   left: 20px;
   bottom: -10px;
   box-shadow: 0 10px 4px 0 rgba(11, 11, 11, 0.1);
+}
+.TodoNotes{
+  text-align: center;
+
 }

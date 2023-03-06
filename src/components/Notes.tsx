@@ -5,17 +5,18 @@ import { Box, Typography } from "@mui/material";
 
 interface INotesprops {
     alltodo: TodoObj[],
-    deletenote: (id: number) => void
+    deletenote: (id: number) => void,
+    view: (id: number) => void
 }
 
 
-const TODO: React.FC<INotesprops> = ({ alltodo,deletenote }) => {
+const TODO: React.FC<INotesprops> = ({ alltodo,deletenote ,view}) => {
     return (
         <Box>
-            <Typography variant="h3">TODO </Typography>
+            <Typography variant="h3" className="TodoNotes">TODO </Typography>
             {
                 alltodo.map(todo =>(
-                    <Note todo= {todo} deletenote={deletenote}/>
+                    <Note todo= {todo} deletenote={deletenote} view={view}/>
                 ))
             }
         </Box>
